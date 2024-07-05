@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+body{
+  background-color: rgb(205, 186, 243);
+}
+
+h2{
+  color: rgb(80, 77, 77);
+  text-align: center;
+}
+
+.card-container {
+  border: 1px solid #c7c5c5;
+  width: 40%;
+  height: fit-content;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(219, 205, 233);
+}
+.card {
+  border: 1px solid #5a5858;
+  color: #353333;
+  margin: 5px 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(195, 174, 233);
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.card:hover {
+  background-color: #c58fdf;
+}
+
+.card.dragging {
+  background-color: rgb(154, 105, 231);
+}
